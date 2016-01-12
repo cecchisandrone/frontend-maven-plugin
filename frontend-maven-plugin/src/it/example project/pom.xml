@@ -23,8 +23,8 @@
                             <goal>install-node-and-npm</goal>
                         </goals>
                         <configuration>
-                            <nodeVersion>v0.10.30</nodeVersion>
-                            <npmVersion>1.4.21</npmVersion>
+                            <nodeVersion>v0.12.7</nodeVersion>
+                            <npmVersion>2.11.3</npmVersion>
                         </configuration>
                     </execution>
 
@@ -38,7 +38,7 @@
                             <arguments>install</arguments>
                         </configuration>
                     </execution>
-                    
+
                     <execution>
                         <id>bower install</id>
                         <goals>
@@ -47,7 +47,7 @@
                         <configuration>
                             <arguments>install</arguments>
                         </configuration>
-                    </execution>                    
+                    </execution>
 
                     <execution>
                         <id>grunt build</id>
